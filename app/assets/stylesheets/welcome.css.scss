@@ -1,0 +1,32 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.x-header {
+	color: #fff;
+	background: #DE5151;
+	.hero-logo {
+		margin: 1rem 0;
+		font-family: 'Roboto Condensed';
+		font-weight: 100;
+		font-size: 3rem;
+		span.bg-white {
+			display: inline;
+			color: #DE5151;
+			background: #fff;
+			padding: 0 12px;
+		}
+		span.bg-blue {
+			display: inline;
+			background: #5E2222;
+			padding: 0 12px;
+		}
+	}
+	div.subtitle {
+		font-size: 1rem;
+	}
+}
