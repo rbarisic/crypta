@@ -1,9 +1,78 @@
 // The xrl Base-Stylesheet
 
+h2,h3,h4,h5,h6 {
+	color: #DE5151;
+	font-weight: 100;
+}
+
+h1 {
+	color: #444;
+	font-weight: 100;
+	line-height: 2rem;
+}
+
+a {
+	text-decoration: none;
+	&:hover {
+	}
+}
+
 .x-app {
 	padding: 1em;
 }
 
 .l-box {
 	padding: 1em;
+}
+
+.fa-fw {
+	height: 1em;
+	width: 1em;
+}
+
+.x-container {
+
+}
+
+.x-c-960 {
+	background: #fff;
+	max-width: 960px;
+}
+
+.x-c-50 {
+	max-width: 50em;
+}
+
+.x-c-center {
+	margin: 0 auto;
+}
+
+.x-header {
+	color: #fff;
+	background: #DE5151;
+	h1 { color: #DE5151; }
+	.hero-logo {
+		margin: 1rem 0;
+		font-family: 'Roboto Condensed';
+		font-weight: 100;
+		font-size: 3rem;
+		span.bg-white {
+			display: inline;
+			color: #DE5151;
+			background: #fff;
+			padding: 0 12px;
+		}
+		span.bg-blue {
+			display: inline;
+			background: #5E2222;
+			padding: 0 12px;
+		}
+	}
+	div.subtitle {
+		font-size: 1rem;
+	}
+	@media screen and (max-width: 48em) {
+		transition: padding-top 0.5s;
+		padding-top: 4em;
+	}
 }

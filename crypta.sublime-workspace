@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"f",
+				"fs	font-style: ${italic};"
+			],
+			[
 				"passe",
 				"passed_tests"
 			],
@@ -291,6 +295,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/assets/stylesheets/x-forms.css.scss",
+			"settings":
+			{
+				"buffer_size": 2237,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 3127,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -392,10 +412,56 @@
 	},
 	"expanded_folders":
 	[
-		"/home/xiq/rails_projects/crypta"
+		"/home/xiq/rails_projects/crypta",
+		"/home/xiq/rails_projects/crypta/app",
+		"/home/xiq/rails_projects/crypta/app/assets",
+		"/home/xiq/rails_projects/crypta/app/assets/javascripts",
+		"/home/xiq/rails_projects/crypta/app/assets/stylesheets",
+		"/home/xiq/rails_projects/crypta/app/controllers",
+		"/home/xiq/rails_projects/crypta/app/mailers",
+		"/home/xiq/rails_projects/crypta/app/views",
+		"/home/xiq/rails_projects/crypta/app/views/devise",
+		"/home/xiq/rails_projects/crypta/app/views/devise/registrations",
+		"/home/xiq/rails_projects/crypta/app/views/devise/shared",
+		"/home/xiq/rails_projects/crypta/app/views/layouts",
+		"/home/xiq/rails_projects/crypta/app/views/shared",
+		"/home/xiq/rails_projects/crypta/app/views/welcome",
+		"/home/xiq/rails_projects/crypta/db/migrate"
 	],
 	"file_history":
 	[
+		"/home/xiq/rails_projects/crypta/app/views/layouts/application.html.erb",
+		"/home/xiq/rails_projects/crypta/app/views/shared/_hover_menu.html.erb",
+		"/home/xiq/rails_projects/crypta/config/routes.rb",
+		"/home/xiq/rails_projects/crypta/app/views/devise/registrations/new.html.erb",
+		"/home/xiq/rails_projects/crypta/app/views/devise/shared/_links.html.erb",
+		"/home/xiq/rails_projects/crypta/app/assets/stylesheets/x-base.css.scss",
+		"/home/xiq/rails_projects/crypta/app/assets/stylesheets/x-forms.css.scss",
+		"/home/xiq/rails_projects/crypta/app/views/shared/_header.html.erb",
+		"/home/xiq/rails_projects/crypta/app/controllers/users_controller.rb",
+		"/home/xiq/rails_projects/crypta/app/views/devise/shared/_header.html.erb",
+		"/home/xiq/rails_projects/crypta/app/views/layouts/welcome.html.erb",
+		"/home/xiq/rails_projects/crypta/app/assets/stylesheets/welcome.css.scss",
+		"/home/xiq/rails_projects/crypta/app/controllers/user_controller.rb",
+		"/home/xiq/rails_projects/crypta/app/assets/stylesheets/hovermenu.css.scss",
+		"/home/xiq/rails_projects/crypta/app/assets/stylesheets/_material-containers.css.scss",
+		"/home/xiq/rails_projects/crypta/app/assets/stylesheets/application.css.scss",
+		"/home/xiq/rails_projects/crypta/app/assets/stylesheets/material.css.scss",
+		"/home/xiq/rails_projects/crypta/app/assets/stylesheets/_material-shadows.css.scss",
+		"/home/xiq/rails_projects/crypta/app/assets/stylesheets/material-containers.css.scss",
+		"/home/xiq/rails_projects/crypta/app/views/welcome/index.html.erb",
+		"/home/xiq/rails_projects/crypta/app/assets/javascripts/welcome.js",
+		"/home/xiq/rails_projects/crypta/app/views/tasks/index.html.erb",
+		"/home/xiq/rails_projects/crypta/app/assets/javascripts/tasks.js",
+		"/home/xiq/rails_projects/crypta/app/assets/javascripts/application.js",
+		"/home/xiq/rails_projects/crypta/app/assets/javascripts/user.js",
+		"/home/xiq/rails_projects/crypta/Gemfile",
+		"/home/xiq/rails_projects/crypta/app/views/welcome/about.html.erb",
+		"/home/xiq/rails_projects/crypta/config/environments/development.rb",
+		"/home/xiq/rails_projects/crypta/db/migrate/20150413133841_add_devise_to_users.rb",
+		"/home/xiq/rails_projects/crypta/db/migrate/20150413133631_create_users.rb",
+		"/home/xiq/rails_projects/crypta/public/robots.txt",
+		"/home/xiq/rails_projects/crypta/app/assets/stylesheets/normalize.css.scss",
 		"/home/xiq/test_projects/bromium/lib/bromium/environment.rb",
 		"/home/xiq/test_projects/bromium/examples/drooms_online_shop/buy_product_spec.rb",
 		"/home/xiq/test_projects/bromium/lib/bromium.rb",
@@ -491,43 +557,11 @@
 		"/home/xiq/rails_projects/game_codes/db/development.sqlite3",
 		"/home/xiq/rails_projects/game_codes/config/initializers/secret_token.rb",
 		"/home/xiq/rails_projects/game_codes/tmp/cache/assets/development/sass/c9ef4d3a175029ae686972850f95a0ba136c26cb/game_requests.css.scssc",
-		"/home/xiq/rails_projects/game_codes/spec/controllers/game_requests_controller_spec.rb",
-		"/home/xiq/rails_projects/game_codes/app/controllers/application_controller.rb",
-		"/home/xiq/rails_projects/game_codes/db/migrate/20150206134534_add_coins_to_user.rb",
-		"/home/xiq/rails_projects/game_codes/app/views/shared/_header.html.erb",
-		"/home/xiq/rails_projects/game_codes/tmp/pids/server.pid",
-		"/home/xiq/rails_projects/game_codes/app/assets/stylesheets/base-layout.css.scss",
-		"/home/xiq/rails_projects/game_codes/app/assets/stylesheets/xrl-base.css",
-		"/home/xiq/rails_projects/game_codes/app/views/welcome/help.html.erb",
-		"/home/xiq/rails_projects/game_codes/app/views/devise/sessions/new.html.erb",
-		"/home/xiq/rails_projects/game_codes/db/schema.rb",
-		"/home/xiq/rails_projects/game_codes/tmp/cache/assets/development/sprockets/db28584f4ef8d14a7665207501fad825",
-		"/home/xiq/rails_projects/game_codes/app/views/shared/_admin_menu.html.erb",
-		"/home/xiq/rails_projects/game_codes/app/assets/javascripts/application.js",
-		"/home/xiq/rails_projects/game_codes/config/initializers/filter_parameter_logging.rb",
-		"/home/xiq/rails_projects/game_codes/app/views/devise/mailer/confirmation_instructions.html.erb",
-		"/home/xiq/rails_projects/game_codes/db/migrate/20150206134458_add_coins_to_user.rb",
-		"/home/xiq/rails_projects/game_codes/spec/controllers/user_controller_spec.rb",
-		"/home/xiq/rails_projects/game_codes/app/controllers/games_controller.rb",
-		"/home/xiq/rails_projects/game_codes/app/views/devise/mailer/reset_password_instructions.html.erb",
-		"/home/xiq/rails_projects/game_codes/db/migrate/20150119093853_add_devise_to_users.rb",
-		"/home/xiq/rails_projects/game_codes/Rakefile",
-		"/home/xiq/rails_projects/game_codes/bin/rake",
-		"/home/xiq/rails_projects/game_codes/vendor/assets/javascripts/.keep",
-		"/home/xiq/rails_projects/game_codes/vendor/assets/stylesheets/.keep",
-		"/home/xiq/rails_projects/game_codes/app/views/welcome/terms.html.erb",
-		"/home/xiq/rails_projects/game_codes/app/controllers/registrations_controller.rb",
-		"/home/xiq/rails_projects/game_codes/config.ru",
-		"/home/xiq/rails_projects/game_codes/db/migrate/20150120124115_add_company_url_to_game.rb",
-		"/home/xiq/rails_projects/game_codes/app/views/game_requests/_check_requests.html.erb",
-		"/home/xiq/rails_projects/game_codes/app/views/devise/registrations/new.html.erb",
-		"/home/xiq/rails_projects/game_codes/app/controllers/game_requests_controller.rb",
-		"/home/xiq/rails_projects/game_codes/app/views/game_requests/check_requests.js.erb",
-		"/home/xiq/rails_projects/game_codes/app/views/game_codes/new.html.erb"
+		"/home/xiq/rails_projects/game_codes/spec/controllers/game_requests_controller_spec.rb"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -550,6 +584,54 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"/div",
+			"div class=\"fieldset\"",
+			"fieldset",
+			"<br />",
+			" </div>",
+			"<div class=\"fieldset\">",
+			"class=\"field\"",
+			"field",
+			"mat-h",
+			"div class=\"mat-c",
+			"<div class=\"ma",
+			";\n\n}",
+			"\n}\n",
+			"		",
+			"material",
+			"2",
+			"mat-sh",
+			"\"",
+			"0.3",
+			"3p",
+			"2",
+			"rgba(",
+			"header",
+			"0",
+			"close",
+			"0",
+			"rem",
+			"hover-menu",
+			"300",
+			"Out(10",
+			"100",
+			"300",
+			"FF7777",
+			"red",
+			"button",
+			"bbb",
+			"2px",
+			"DE5151",
+			"bbb",
+			"1px",
+			"pure-form ",
+			",",
+			"block",
+			"-size:",
+			"2px",
+			"0F3559",
+			"2481D8",
+			"DE512F",
 			"byebug",
 			"skiped_tests",
 			"&block",
@@ -629,55 +711,7 @@
 			"game",
 			"end",
 			"	private\n		def person_params\n	      params.require(:person).permit(:name, :age)\n	    end",
-			"!important",
-			"A",
-			"a",
-			"link_to_active",
-			"<li ",
-			" </li>",
-			"</li>",
-			"<li>",
-			"7D96BE",
-			"container",
-			"||=",
-			"a",
-			"<%=",
-			"<%",
-			"	<%= ",
-			"<%=",
-			"paypal_adress",
-			"first_name",
-			"<button>",
-			"button",
-			".",
-			"#sp-",
-			"</button>",
-			"<button>",
-			"10.0.2.4",
-			"before_create",
-			"line-heigh",
-			"menu-button",
-			"checkbox",
-			"navigati",
-			"        $('.show-on-scroll-large').fadeIn();",
-			"<hr>",
-			"<h1>Examples</h1>",
-			"h1",
-			"scroll",
-			"ul",
-			"<%",
-			" %></",
-			"%",
-			"background.png",
-			"2",
-			"<h2><",
-			"<button>",
-			"on>",
-			"<h2>",
-			"image_tag",
-			"	<div ",
-			"<div c",
-			"				<div "
+			"!important"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -751,14 +785,74 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/assets/stylesheets/x-forms.css.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1046,
+								1046
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1196.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								373,
+								373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -799,7 +893,7 @@
 	"project": "crypta.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -808,6 +902,194 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"xforms",
+				"app/assets/stylesheets/x-forms.css.scss"
+			],
+			[
+				"apphtmlerb",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"header",
+				"app/views/shared/_header.html.erb"
+			],
+			[
+				"xform",
+				"app/assets/stylesheets/x-forms.css.scss"
+			],
+			[
+				"x-base",
+				"app/assets/stylesheets/x-base.css.scss"
+			],
+			[
+				"welcomehtml",
+				"app/views/layouts/welcome.html.erb"
+			],
+			[
+				"x-",
+				"app/assets/stylesheets/x-base.css.scss"
+			],
+			[
+				"welcomecss",
+				"app/assets/stylesheets/welcome.css.scss"
+			],
+			[
+				"user_contr",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"hoverm",
+				"app/assets/stylesheets/hovermenu.css.scss"
+			],
+			[
+				"hovercs",
+				"app/assets/stylesheets/hovermenu.css.scss"
+			],
+			[
+				"appcss",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"welcss",
+				"app/assets/stylesheets/welcome.css.scss"
+			],
+			[
+				"matcon",
+				"app/assets/stylesheets/material-containers.css.scss"
+			],
+			[
+				"matsh",
+				"app/assets/stylesheets/_material-shadows.css.scss"
+			],
+			[
+				"welhtm",
+				"app/views/layouts/welcome.html.erb"
+			],
+			[
+				"matec",
+				"app/assets/stylesheets/material-containers.css.scss"
+			],
+			[
+				"welcomcss",
+				"app/assets/stylesheets/welcome.css.scss"
+			],
+			[
+				"xfor",
+				"app/assets/stylesheets/x-forms.css.scss"
+			],
+			[
+				"hover",
+				"app/assets/stylesheets/hovermenu.css.scss"
+			],
+			[
+				"hovermenu",
+				"app/assets/stylesheets/hovermenu.css.scss"
+			],
+			[
+				"hovercss",
+				"app/assets/stylesheets/hovermenu.css.scss"
+			],
+			[
+				"welccss",
+				"app/assets/stylesheets/welcome.css.scss"
+			],
+			[
+				"welcomehtm",
+				"app/views/layouts/welcome.html.erb"
+			],
+			[
+				"weljs",
+				"app/assets/javascripts/welcome.js"
+			],
+			[
+				"xbase",
+				"app/assets/stylesheets/x-base.css.scss"
+			],
+			[
+				"x",
+				"app/assets/stylesheets/x-base.css.scss"
+			],
+			[
+				"x-bas",
+				"app/assets/stylesheets/x-base.css.scss"
+			],
+			[
+				"welindex",
+				"app/views/welcome/index.html.erb"
+			],
+			[
+				"index",
+				"app/views/tasks/index.html.erb"
+			],
+			[
+				"welcome.css",
+				"app/assets/stylesheets/welcome.css.scss"
+			],
+			[
+				"welcomhtml",
+				"app/views/layouts/welcome.html.erb"
+			],
+			[
+				"xbas",
+				"app/assets/stylesheets/x-base.css.scss"
+			],
+			[
+				".js",
+				"app/assets/javascripts/user.js"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"welcome.js",
+				"app/assets/javascripts/welcome.js.coffee"
+			],
+			[
+				"welcomeindex",
+				"app/views/welcome/index.html.erb"
+			],
+			[
+				"migra",
+				"db/migrate/20150413133841_add_devise_to_users.rb"
+			],
+			[
+				"robot",
+				"public/robots.txt"
+			],
+			[
+				"root",
+				"public/robots.txt"
+			],
+			[
+				"controller",
+				"app/controllers/user_controller.rb"
+			],
+			[
+				"conenvdevrb",
+				"config/environments/development.rb"
+			],
+			[
+				"gemfi",
+				"Gemfile"
+			],
+			[
+				"apphtml",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"welcocss",
+				"app/assets/stylesheets/welcome.css.scss"
+			],
 			[
 				"buypro",
 				"examples/drooms_online_shop/buy_product_spec.rb"
@@ -929,16 +1211,8 @@
 				"spec/factories.rb"
 			],
 			[
-				"gemfi",
-				"Gemfile"
-			],
-			[
 				"welcome",
 				"app/controllers/welcome_controller.rb"
-			],
-			[
-				"routes",
-				"config/routes.rb"
 			],
 			[
 				"dabas",
@@ -947,10 +1221,6 @@
 			[
 				"pure",
 				"app/assets/stylesheets/pure-additions.css.scss"
-			],
-			[
-				"header",
-				"app/views/shared/_header.html.erb"
 			],
 			[
 				"addcoins",
@@ -1143,182 +1413,6 @@
 			[
 				"checkre",
 				"app/views/game_requests/_check_requests.html.erb"
-			],
-			[
-				"check_re",
-				"app/views/game_requests/_check_requests.html.erb"
-			],
-			[
-				"request",
-				"app/models/game_request.rb"
-			],
-			[
-				"reqchec",
-				"app/views/game_requests/_check_requests.html.erb"
-			],
-			[
-				"appjs",
-				"app/assets/javascripts/application.js"
-			],
-			[
-				"checkq",
-				"app/views/game_requests/_check_requests.html.erb"
-			],
-			[
-				"appljs",
-				"app/assets/javascripts/application.js"
-			],
-			[
-				"route",
-				"config/routes.rb"
-			],
-			[
-				"reqcontr",
-				"app/controllers/game_requests_controller.rb"
-			],
-			[
-				"cssbase",
-				"tmp/cache/assets/development/sass/c9ef4d3a175029ae686972850f95a0ba136c26cb/base-layout.css.scssc"
-			],
-			[
-				"requnew",
-				"app/views/game_requests/new.html.erb"
-			],
-			[
-				"bascss",
-				"app/assets/stylesheets/base-layout.css.scss"
-			],
-			[
-				"en.ym",
-				"config/locales/en.yml"
-			],
-			[
-				"gamenew",
-				"app/views/games/new.html.erb"
-			],
-			[
-				"requenew",
-				"app/views/game_requests/new.html.erb"
-			],
-			[
-				"gamereqnew",
-				"app/views/game_requests/new.html.erb"
-			],
-			[
-				"modelgame",
-				"app/models/game.rb"
-			],
-			[
-				"requcon",
-				"app/controllers/game_requests_controller.rb"
-			],
-			[
-				"purecss",
-				"app/assets/stylesheets/pure-additions.css.scss"
-			],
-			[
-				"gamecont",
-				"app/controllers/games_controller.rb"
-			],
-			[
-				"gamerequ",
-				"app/models/game_request.rb"
-			],
-			[
-				"modelreq",
-				"app/models/game_request.rb"
-			],
-			[
-				"gamerewn",
-				"app/views/game_requests/new.html.erb"
-			],
-			[
-				"modelgam",
-				"app/models/game_code.rb"
-			],
-			[
-				"gamereqcont",
-				"app/controllers/game_requests_controller.rb"
-			],
-			[
-				"gamecontro",
-				"app/controllers/games_controller.rb"
-			],
-			[
-				"gamerecon",
-				"app/controllers/game_requests_controller.rb"
-			],
-			[
-				"indegal",
-				"app/views/games/_index_gallery.html.erb"
-			],
-			[
-				"gameindex",
-				"app/views/games/index.html.erb"
-			],
-			[
-				"model",
-				"app/models/user.rb"
-			],
-			[
-				"adminmenuco",
-				"app/views/shared/_admin_menu_collapsed.html.erb"
-			],
-			[
-				"admenu",
-				"app/views/shared/_admin_menu.html.erb"
-			],
-			[
-				"admincol",
-				"app/views/shared/_admin_menu_collapsed.html.erb"
-			],
-			[
-				"admin_",
-				"app/views/shared/_admin_menu.html.erb"
-			],
-			[
-				"devlog",
-				"log/development.log"
-			],
-			[
-				"apphtml",
-				"app/views/layouts/application.html.erb"
-			],
-			[
-				"admin",
-				"app/views/shared/_admin_warning.html.erb"
-			],
-			[
-				"reqeu",
-				"db/migrate/20150128105336_create_game_requests.rb"
-			],
-			[
-				"pure-add",
-				"app/assets/stylesheets/pure-additions.css.scss"
-			],
-			[
-				"xrl-",
-				"app/assets/stylesheets/xrl-base.css"
-			],
-			[
-				"gameshow",
-				"app/views/games/show.html.erb"
-			],
-			[
-				"util",
-				"spec/support/utilities.rb"
-			],
-			[
-				"factor",
-				"spec/factories.rb"
-			],
-			[
-				"gamecode",
-				"app/models/game_code.rb"
-			],
-			[
-				"gemfile",
-				"Gemfile"
 			]
 		],
 		"width": 0.0
@@ -1326,9 +1420,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "devi",
 		"selected_items":
 		[
+			[
+				"devi",
+				"~/rails_projects/devise.sublime-project"
+			],
 			[
 				"",
 				"~/rails_projects/game_codes.sublime-project"

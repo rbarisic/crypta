@@ -1,0 +1,30 @@
+<div id="hover-menu" class="mat-l-2 mat-h-3">
+  <div class="hover-menu-title">
+    <div id="crypta-logo"><%= icon('lock') %> CRYPTA</div>
+
+    <div id="hover-button" class="hover-menu-button"><%= icon('navicon', class: 'fa-fw') %></div>
+
+    <span class="hidden">
+      <%= link_to tasks_path, class: 'hover-menu-button' do %>
+        <%= icon('terminal', class: 'fa-fw')%>
+      <% end %>
+      <%= link_to edit_user_registration_path(current_user), class: 'hover-menu-button' do %>
+        <%= icon('gear', class: 'fa-fw')%>
+      <% end %>
+      <%= link_to destroy_user_session_path, class: 'hover-menu-button' do %>
+        <%= icon('sign-out', class: 'fa-fw')%>
+      <% end %>
+  </span>
+  </div>
+
+
+
+  <ul class="hidden">
+    <li><%= link_to "Home", root_path %></li>
+    <li><%= link_to "Create an Account", new_user_registration_path %></li>
+    <li><%= link_to "About", welcome_about_path %></li>
+    <li><%= link_to "Embed", welcome_embed_path %></li>
+    <li><%= link_to "Help", welcome_help_path %></li>
+    <li><%= link_to "Impressum", welcome_impressum_path %></li>
+  </ul>
+</div>

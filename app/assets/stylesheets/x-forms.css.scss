@@ -1,12 +1,23 @@
 // Forms for the x Base-Stylesheet
-
-
 form.x-form {
-	padding: 1em;
+	max-width: 50em;
+	padding: 0.5rem;
+	border: 1px solid #ddd;
+	label {
+		color: #777;
+		display: block;
+		padding: 0.5rem 0;
+	}
+
+	input {
+		display: block;
+		padding: 0.5rem;
+		border: 2px solid #bbb;
+	}
 }
 
 form.x-form-bordered {
-	border: 2px solid #bbb;
+	border: 2px solid #ddd;
 }
 
 form.x-form-stacked {
@@ -30,49 +41,46 @@ form.x-form-stacked {
 
 fieldset {
 	border: none;
+	border: 1px solid #eee;
+	padding: 0.5rem;
+	margin: 1rem 0.5rem;
+
 }
 
 fieldset.x-fieldset {
-	padding: 1em;
-	margin: 1em 0;
-	border: none;
+	padding: 0.5rem;
+	margin: 1rem 0.5rem;
 	outline: none;
 }
 
 fieldset.x-fieldset-bordered {
-	border: 2px solid #bbb;
+	border: 2px solid #eee;
 }
 
-label {
-	display: block;
-	padding: 0.5rem 0;
-	font-size: 1rem;
-}
-
-input {
-	transition: all 0.5s;
-	display: block;
-	padding: 0.5rem;
-	border: 2px solid #bbb;
-}
-
-input[type="button"] {
+input[type="button"], input[type="submit"],button, form.a {
+	transition: all 0.1s;
 	min-width: 6em;
+	font-family: 'Roboto';
+	font-weight: bold;
+	text-transform: bold;
 	text-align: center;
-		border-radius: 4px;
+	color: #fff;
+	background: #DE5151;
+	border: none !important;
+	outline: none !important;
+	padding: 0.5rem;
 	&:hover {
-		color: #fff;
-		background: #DE5151;
-		border-color: #DE5151;
-		border-radius: 16px;
+		transition: none;
+		background: #FF5D5D;
 	}
 	&:active {
-		transition: border-radius 0.1s;
-		color: #fff;
-		background: #AB3E3E;
-		border-color: #AB3E3E;
-		border-radius: 8px;		
+	transition: none;
+		background: linear-gradient(#DE5151,#FF5D5D);
 	}
+	// &:focus {
+	// 	background: linear-gradient(#DE5151,#FF5D5D);
+	// 	border: 2px solid #bbb;
+	// }
 }
 
 input[type="email"]:invalid {
@@ -100,9 +108,25 @@ input[type="email"]:invalid {
 .x-form input[type="color"],
 .x-form select,
 .x-form textarea {
+	transition: border 0.5s;
+	min-width: 16em;
 	&:focus {
-		color: #fff;
-		background: #DE5151;
-		border-color: #E39797;
+		color: #555;
+		border-color: #FF7777;
+		&::-webkit-input-placeholder {
+		   color: #fff;
+		}
+
+		&:-moz-placeholder { /* Firefox 18- */
+		   color: #fff;  
+		}
+
+		&::-moz-placeholder {  /* Firefox 19+ */
+		   color: #fff;  
+		}
+
+		&:-ms-input-placeholder {  
+		   color: #fff;  
+		}
 	}
 }

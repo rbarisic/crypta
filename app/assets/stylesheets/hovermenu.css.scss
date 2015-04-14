@@ -1,0 +1,114 @@
+@mixin blur($strength) {
+	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="#{$strength}" /></filter></svg>#filter');
+  	-webkit-filter: blur("#{$strength}px");
+    filter: blur("#{$strength}px");
+}
+
+.fixed {
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+#hover-menu {
+	transition: all 0.2s;
+	position: fixed;
+	top: 0.5rem;
+	left: 0.5rem;
+	z-index: 200;
+	// background: rgba(0,0,0,0.7);
+	color: #333;
+	background: #fff;
+	// &::before {
+	// 	content: " ";
+	// 	position: absolute;
+	// 	top: 0;
+	// 	left: 0;
+	// 	width: 100%;
+	// 	height: 100%;
+	// 	@include blur(2);
+	// }
+	&:hover {
+	}
+	@media screen and (max-width: 48em) {
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+	.hover-menu-button {
+		cursor: pointer;
+	}
+	div.hover-menu-button {
+		font-size: 1.5rem;
+		padding: 0.5rem;
+		display: inline-block;
+		color: #fff;
+		&:hover {
+			background: rgba(255,255,255,0.2);
+		}
+	}
+	a.hover-menu-button {
+		display: inline-block;
+		color: #fff;
+		font-size: 1.5rem;
+		padding: 0.5rem;
+		&:hover {
+			background: rgba(255,255,255,0.2);
+		}
+	}
+	div.hover-menu-title {
+		width: 100%;
+		background: #B22F2F;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;		
+		li {
+			a {
+				display: inline-block;
+				padding: 1em;
+				min-width: 16em;
+				color: #333;
+				&:hover {
+					color: #fff;
+					background: #B22F2F;
+				}
+				&:active {
+					background: #C33;
+				}
+				@media screen and (max-width: 48em) {
+				width: 100%;
+				}
+			}
+		}
+	}
+
+	#crypta-logo {
+		display: none;
+		position: absolute;
+		right: 0.5rem;
+		transform: translateY(50%);
+		color: rgba(255,255,255,0.5);
+		@media screen and (max-width: 48em) {
+			display: block;
+		}	
+	}
+}
+
+
+  // <div class="hover-menu">
+  //   <div class="hover-menu-button"><%= icon('navicon') %></div>
+  //   <ul class="hidden">
+  //     <li><%= link_to "Home", root_path %></li>
+  //     <li><%= link_to "About", welcome_about_path %></li>
+  //     <li><%= link_to "Embed", welcome_embed_path %></li>
+  //     <li><%= link_to "Help", welcome_help_path %></li>
+  //     <li><%= link_to "Impressum", welcome_impressum_path %></li>
+  //   </ul>
+  // </div>

@@ -1,0 +1,50 @@
+@import "material-shadows";
+
+.mat-c {
+}
+
+.mat-l-1 {
+	box-shadow: $mat-sh-1;
+}
+
+.mat-l-2 {
+	box-shadow: $mat-sh-2;
+}
+
+.mat-l-3 {
+	box-shadow: $mat-sh-3;
+}
+
+.mat-l-4 {
+	box-shadow: $mat-sh-4;
+}
+
+.mat-l-5 {
+	box-shadow: $mat-sh-5;
+}
+
+.mat-h-1 {
+	&:hover {
+		box-shadow: $mat-sh-1;
+	}
+}
+.mat-h-2 {
+	&:hover {
+		box-shadow: $mat-sh-2;
+	}
+}
+.mat-h-3 {
+	&:hover {
+		box-shadow: $mat-sh-3;
+	}
+}
+.mat-h-4 {
+	&:hover {
+		box-shadow: $mat-sh-4;
+	}
+}
+.mat-h-5 {
+	&:hover {
+		box-shadow: $mat-sh-5;
+	}
+}
