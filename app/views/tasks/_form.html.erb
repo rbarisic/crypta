@@ -1,4 +1,4 @@
-<%= form_for(@task) do |f| %>
+<%= form_for(@task, html: { class: 'x-form' }) do |f| %>
   <% if @task.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@task.errors.count, "error") %> prohibited this task from being saved:</h2>
@@ -10,12 +10,41 @@
       </ul>
     </div>
   <% end %>
-
-  <div class="field">
+  <fieldset>
+    <%= f.label :name %><br>
+    <%= f.text_field :name, placeholder: 'Unique Task Name' %>
+  </fieldset>
+  <fieldset>
     <%= f.label :command %><br>
-    <%= f.text_field :command %>
-  </div>
+    <%= f.text_area :command, placeholder: 'e.g. "sudo apt-get install base64' %>
+    <div id="suggest"></div>
+  </fieldset>
   <div class="actions">
     <%= f.submit %>
   </div>
 <% end %>
+
+<script>
+  var textarea = $('#task_command');
+  textarea.on('click', function() {
+    if(textarea.height() > 180) {
+      $('#suggest').html("<div class='suggestion'>Need a bigger Editor? Get <a href='#'>super.io.r</a> now. It's free!</div>")
+    }
+  })
+</script>
+
+<style>
+  .suggestion {
+    display: inline-block;
+    width: 100%;
+    padding: 0.5rem;
+    color: #555;
+  }
+  .suggestion a {
+    color: #DE5151;
+  }
+  .suggestion a:hover {
+    color: #DE5151;
+    background: none;
+  }
+</style>

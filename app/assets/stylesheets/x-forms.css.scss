@@ -9,10 +9,17 @@ form.x-form {
 		padding: 0.5rem 0;
 	}
 
-	input {
+	input, textarea {
 		display: block;
 		padding: 0.5rem;
 		border: 2px solid #bbb;
+	}
+	textarea {
+		max-width: 44em;
+		max-height: 32em;
+		@media screen and (min-width: 48em) {
+			max-width: 100%;
+		}
 	}
 }
 
@@ -44,7 +51,6 @@ fieldset {
 	border: 1px solid #eee;
 	padding: 0.5rem;
 	margin: 1rem 0.5rem;
-
 }
 
 fieldset.x-fieldset {

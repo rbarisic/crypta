@@ -76,10 +76,11 @@
 				min-width: 16em;
 				color: #333;
 				&:hover {
-					color: #fff;
-					background: #B22F2F;
+					color: #222;
+					background: #eee;
 				}
 				&:active {
+					color: #fff;
 					background: #C33;
 				}
 				@media screen and (max-width: 48em) {
