@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   devise_for :users
   get '/user' => 'tasks#index', :as => 'user_root'
 
-  resources :tasks
+  resources :tasks do
+  end
 
   root 'welcome#index'
 
@@ -14,6 +15,8 @@ Rails.application.routes.draw do
   get 'welcome/help'
 
   get 'welcome/embed'
+
+  get "/run_task/:id" => 'tasks#run_task', as: 'run_task'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

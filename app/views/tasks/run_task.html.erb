@@ -1,0 +1,16 @@
+<div class="x-container x-c-50 x-c-center">
+	<h1>Ran task: <u><%= @task.name %></u></h1>
+	<h2>Command</h2>
+	<div class="x-code x-code-output">
+	<%= @task.command %>
+	</div>
+	<h2>Output</h2>
+	<div class="x-code x-code-output">
+	<%= @log %>
+	</div>
+	<h2>What Now?</h2>
+	<p>The Task has finished. What do you want to do now?</p>
+	<%= link_to "Go back", tasks_path %>
+	|
+	<%= link_to "Run #{@task.name} again", run_task_path(@task) %>
+</div>

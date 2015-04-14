@@ -1,6 +1,36 @@
 class TasksController < ApplicationController
   before_action :set_task, only: [:show, :edit, :update, :destroy]
 
+  def run_task
+    @task = Task.find(params[:id])
+    puts ''
+    puts ''
+    puts '=============================================='
+    puts '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'
+    puts "RUNNING USER MADE TASK: #{@task.name}"
+    puts ''
+    puts ''
+    puts ''
+    puts ''
+    puts ''
+    puts ''
+    puts ''
+    @log = capture(:stdout) do
+      system(@task.command)
+    end
+    puts ''
+    puts ''
+    puts ''
+    puts ''
+    puts ''
+    puts ''
+    puts ''
+    puts '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'
+    puts '=============================================='
+    puts ''
+    puts ''
+  end
+
   # GET /tasks
   # GET /tasks.json
   def index
@@ -69,6 +99,6 @@ class TasksController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def task_params
-      params.require(:task).permit(:command)
+      params.require(:task).permit(:name, :command)
     end
 end
